@@ -26,14 +26,37 @@ public class Operadores {
          * double resultado = (10 * 7) + (20/4);
          */
 
-         double multiplicacao = 10.5 * 5;
-         System.out.print(multiplicacao);
-         // ou 
-         String nomeCompleto = "Johnny" + "James";
-         System.out.print(nomeCompleto);
+        double multiplicacao = 10.5 * 5;
+        System.out.print(multiplicacao);
+        // ou
+        String nomeCompleto = "Johnny" + "James";
+        System.out.print(nomeCompleto);
+
+        /*
+         * Ternário
+         * O operador ternário é representado pelos símbolos ?: utilizados na seguinte
+         * estrutura de sintaxe:
+         * <Expressão Condicional>`` ?``<Caso condição seja true>``: ``<Caso condição
+         * seja false>
+         * 
+         * exemplo:
+         * int a, b;
+         * a = 5;
+         * b = 6;
+         * EXEMPLO DE CONDICIONAL UTILIZANDO UMA ESTRUTURA IF/ELSE
+         * if(a==b)
+         * resultado = "verdadeiro";
+         * else
+         * resultado = "falso";
+         */
+        int a = 5;
+        int b = 6;
+        String resultado = (a==b) ? "verdadeiro" : "falso";
+        System.out.println(resultado);
 
 
-         // mais infomações em https://felipe-silva-aguiar.gitbook.io/dio-java/gitbook/sintaxe/operadores
+        // mais infomações em
+        // https://felipe-silva-aguiar.gitbook.io/dio-java/gitbook/sintaxe/operadores
 
     }
 }
