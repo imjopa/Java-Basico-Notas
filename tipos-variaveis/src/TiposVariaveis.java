@@ -25,5 +25,6 @@ public class TiposVariaveis {
      * o termo "final" determina que um valor é fixo
      */
 
+     // elaboração e explicações em https://felipe-silva-aguiar.gitbook.io/dio-java/gitbook/sintaxe/variaveis
     }
 }
