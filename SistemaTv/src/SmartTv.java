@@ -1,8 +1,8 @@
 public class SmartTv {
 
-    static boolean ligada = false;
-    static int canal = 1;
-    static int volume = 10;
+    boolean ligada = false;
+    int canal = 1;
+    int volume = 10;
 
 
     public void mudarCanal(int novoCanal){
@@ -10,15 +10,16 @@ public class SmartTv {
         canal = novoCanal;
     }
    public void canalSucessor() {
-       System.out.println("Canal Sucessor: " + canal++);
-        canal++;
+       canal = canal + 1;
+       System.out.println("Canal Sucessor: " + canal);
    }
    public void canalAntecessor(){
+       canal = canal - 2;
+
        System.out.println("Canal Antecessor: " + canal);
-        canal--;
    }
 
-    public void ligar() {
+    /*public void ligar() {
         ligada = true;
 
     }
@@ -26,16 +27,16 @@ public class SmartTv {
     public void desligar() {
         ligada = false;
 
-    }
+    }*/
 
     public void aumentarVolume() {
-        volume++;
+        volume = volume + 1;
         System.out.println("Aumentando o Volume para: " + volume);
     }
 
     public void diminuirVolume() {
+        volume = volume - 1;
         System.out.println("Diminuindo o Volume para: " + volume);
-        volume--;
     }
 
 }
